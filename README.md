@@ -108,11 +108,6 @@ SocialSharing.js is brought in automatically. There is no need to change or add 
 </feature>
 ```
 
-For sharing remote images (or other files) on Android, the file needs to be stored locally first, so add this permission to `AndroidManifest.xml`:
-```xml
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-```
-
 For iOS, you'll need to add the `Social.framework` and `MessageUI.framework` to your project. Click your project, Build Phases, Link Binary With Libraries, search for and add `Social.framework` and `MessageUI.framework`.
 
 2\. Grab a copy of SocialSharing.js, add it to your project and reference it in `index.html`:
